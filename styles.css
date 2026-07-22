@@ -1,0 +1,150 @@
+:root {
+  --ink: #303030;
+  --soft-ink: #626262;
+  --paper: #ffffff;
+  --mist: #f4f4f2;
+  --line: #ddddda;
+  --brick: #98513f;
+  --max: 1100px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: "Segoe UI", "Source Sans Pro", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: #6d3b30; text-decoration-color: #c3a79f; text-underline-offset: 3px; }
+a:hover { color: #301a15; text-decoration-color: currentColor; }
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { left: 1rem; top: 1rem; background: #fff; color: #222; padding: .6rem .8rem; z-index: 20; }
+
+/* The navigation sits over the photograph, as on the original Weebly site. */
+.site-header { position: absolute; inset: 0 0 auto; z-index: 5; color: #fff; }
+.nav-wrap {
+  max-width: var(--max);
+  margin: auto;
+  min-height: 92px;
+  padding: 1.4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  border-bottom: 0;
+}
+.brand-lockup { display: flex; flex-direction: column; align-items: flex-start; line-height: 1; }
+.brand {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: .065em;
+  text-decoration: none;
+}
+.brand:hover { color: #fff; }
+.brand-subtitle { margin-top: .55rem; color: rgba(255,255,255,.82); font-size: .63rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+.nav-bar { background: #fff; border-bottom: 1px solid var(--line); }
+.nav { max-width: var(--max); margin: auto; padding: 0 2rem; display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 2.2rem; overflow-x: auto; white-space: nowrap; }
+.nav a {
+  position: relative;
+  padding: 1.15rem 0 1.05rem;
+  color: #777;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav a::after { content: ""; position: absolute; left: 0; right: 100%; bottom: 0; height: 3px; background: var(--brick); transition: right .2s ease; }
+.nav a:hover, .nav a[aria-current="page"] { color: var(--brick); }
+.nav a:hover::after, .nav a[aria-current="page"]::after { right: 0; }
+
+.hero {
+  position: relative;
+  min-height: 650px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background-image: url("chris-colvin.jpg");
+  background-size: cover;
+  background-position: center 38%;
+  color: #fff;
+}
+.home-hero { background-position: center 35%; }
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(20,15,13,.82) 0%, rgba(20,15,13,.62) 33%, rgba(20,15,13,.12) 67%, rgba(20,15,13,.2) 100%);
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 45%;
+  background: linear-gradient(transparent, rgba(15,12,11,.46));
+}
+.hero-inner { position: relative; z-index: 1; width: 100%; max-width: var(--max); margin: auto; padding: 9rem 2rem 4rem; }
+.home-hero { align-items: flex-start; }
+.home-hero .hero-inner { padding-top: 8.5rem; padding-bottom: 0; }
+.eyebrow { margin: 0 0 .75rem; font-size: .78rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+h1 { max-width: 690px; margin: 0; font-size: 5.5rem; font-size: clamp(3rem, 6.6vw, 5.5rem); line-height: .98; letter-spacing: -.035em; font-weight: 800; text-transform: uppercase; text-shadow: 0 2px 18px rgba(0,0,0,.2); }
+.hero:not(.home-hero) h1 { max-width: 420px; font-size: 3rem; font-size: clamp(2rem, 3.2vw, 3rem); line-height: 1.08; font-weight: 600; letter-spacing: -.02em; text-transform: none; }
+.dek { max-width: 600px; margin: 1.2rem 0 0; color: rgba(255,255,255,.92); font-size: 1.19rem; line-height: 1.55; }
+.hero:not(.home-hero) .dek { max-width: 420px; }
+.home-intro { max-width: 320px; margin: 0; }
+
+main { max-width: var(--max); margin: auto; padding: 4.8rem 2rem 6.5rem; }
+.narrow { max-width: 790px; }
+h2 { margin: 3.8rem 0 1.2rem; font-size: 1.8rem; line-height: 1.2; font-weight: 700; letter-spacing: -.018em; }
+h2:first-child { margin-top: 0; }
+h2::after { content: ""; display: block; width: 48px; height: 3px; margin-top: .7rem; background: var(--brick); }
+h3 { margin: 0 0 .55rem; font-size: 1.15rem; line-height: 1.35; }
+p { margin: 0 0 1.25rem; }
+.lead { color: inherit; font-size: inherit; line-height: inherit; }
+.button { display: inline-block; border: 2px solid var(--ink); padding: .7rem 1.05rem; color: var(--ink); font-size: .76rem; font-weight: 800; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; transition: .2s ease; }
+.button:hover { background: var(--ink); color: #fff; }
+
+.grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.4rem; margin: 2.2rem 0 0; }
+.card { position: relative; min-height: 250px; padding: 1.8rem 1.9rem; background: var(--mist); border-top: 4px solid var(--brick); transition: transform .18s ease, box-shadow .18s ease; }
+.card:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(30,25,23,.1); }
+.card h3 { font-size: 1.22rem; }
+.card p { color: var(--soft-ink); font-size: .96rem; line-height: 1.62; }
+.card p:last-child { margin-bottom: 0; }
+.card a { font-weight: 600; }
+
+.person { padding: 1.35rem 0; border-top: 1px solid var(--line); }
+.person:first-of-type { border-top-color: var(--ink); }
+.person p { margin: .18rem 0; color: var(--soft-ink); font-size: .96rem; }
+.details { display: grid; grid-template-columns: 195px 1fr; gap: 1.5rem; padding: 1.3rem 0; border-top: 1px solid var(--line); }
+.details:first-of-type { border-top-color: var(--ink); }
+.details strong { font-size: .78rem; letter-spacing: .05em; text-transform: uppercase; }
+ul { padding-left: 1.25rem; }
+li { margin-bottom: .55rem; }
+
+footer { color: #ddd; background: #292929; }
+.footer-inner { max-width: var(--max); margin: auto; padding: 2.2rem 2rem; display: flex; justify-content: space-between; gap: 2rem; font-size: .76rem; letter-spacing: .04em; }
+
+@media (max-width: 780px) {
+  body { font-size: 16px; }
+  .site-header { background: linear-gradient(rgba(20,17,16,.5),transparent); }
+  .nav-wrap { min-height: 0; padding: 1.1rem 1.25rem; }
+  .brand { font-size: 1.05rem; }
+  .nav { justify-content: flex-start; gap: 1rem; padding: 0 1.25rem; }
+  .nav a { padding: .9rem 0 .8rem; font-size: .64rem; }
+  .hero, .home-hero { min-height: 520px; background-position: 58% center; }
+  .hero::before { background: linear-gradient(90deg,rgba(20,15,13,.78),rgba(20,15,13,.18)); }
+  .hero-inner { padding: 9.5rem 1.25rem 3rem; }
+  .home-hero .hero-inner { padding: 8rem 1.25rem 0; }
+  h1 { max-width: 85%; }
+  .dek { max-width: 83%; font-size: 1.04rem; }
+  main { padding: 3.5rem 1.25rem 4.5rem; }
+  .grid { grid-template-columns: 1fr; }
+  .card { min-height: 0; }
+  .details { grid-template-columns: 1fr; gap: .25rem; }
+  .footer-inner { flex-direction: column; gap: .35rem; padding: 1.5rem 1.25rem; }
+}
