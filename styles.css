@@ -48,7 +48,7 @@ a:hover { color: #301a15; text-decoration-color: currentColor; }
 .brand:hover { color: #fff; }
 .brand-subtitle { margin-top: .55rem; color: rgba(255,255,255,.82); font-size: .63rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
 .nav-bar { background: #fff; border-bottom: 1px solid var(--line); }
-.nav { max-width: var(--max); margin: auto; padding: 0 2rem; display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 2.2rem; overflow-x: auto; white-space: nowrap; }
+.nav { max-width: var(--max); margin: auto; padding: 0 2rem; display: flex; flex-wrap: nowrap; justify-content: flex-start; gap: 2.7rem; overflow-x: auto; white-space: nowrap; }
 .nav a {
   position: relative;
   padding: 1.15rem 0 1.05rem;
