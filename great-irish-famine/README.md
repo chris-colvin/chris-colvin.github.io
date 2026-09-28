@@ -20,3 +20,7 @@ No build or installation is needed. Keep the assets folder beside index.html. Re
 - assets/: figures and downloadable lecture
 
 The lecture and figures retain their original attribution. No blanket licence is granted to third-party material.
+
+## Image credits
+
+The workhouse engraving is credited to Wikimedia Commons by Economics Observatory. The railway maps are sourced from British Parliamentary Papers (1907), digitised by Alan Fernihough, and reproduced unchanged from Colvin, Doran and Fernihough (2021), Economics Observatory, under CC BY-SA 4.0. The article and licence are linked beside the images. The population chart remains credited to lecture slide 4.
