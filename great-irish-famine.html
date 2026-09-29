@@ -660,6 +660,23 @@ dialog>img {
 /* Frame white-backed evidence so its edge is deliberate against the page. */
 .figure-button[data-figure="population"],
 .figure-button[data-figure="america"] { border:1px solid #202323; }
+
+/* Keep the opening introduction separate from the practical teaching note. */
+.hero { padding-block:44px 42px; }
+.hero-teaching-note {
+  grid-column:1 / -1;
+  display:grid;
+  grid-template-columns:minmax(0,3.4fr) minmax(0,1fr);
+  gap:36px;
+  border-top:1px solid var(--line);
+  padding-top:22px;
+}
+.hero-teaching-note .lecture-introduction { max-width:none; margin:0; }
+.lecture-rights { font-size:12px; line-height:1.5; color:var(--muted); margin:0; }
+@media(max-width:700px) {
+  .hero { padding-block:32px; }
+  .hero-teaching-note { grid-template-columns:1fr; gap:12px; }
+}
 </style>
   </head>
   <body>
@@ -685,9 +702,6 @@ dialog>img {
           <p class="byline">Dr Chris Colvin <span>Queen’s University Belfast</span>
             <span>November 2025</span>
           </p>
-          <!-- Short explanation of this page’s relationship to the full lecture. -->
-          <p class="lecture-introduction">An introduction to the lecture, with slides and teaching materials below. Designed for teaching economic history, the material also relates to development economics, demographic economics, political economy and the economics of migration. You are welcome to reuse and adapt my teaching material to design your own lectures under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 (CC BY 4.0)</a>, crediting Chris Colvin.</p>
-          <p class="lecture-introduction">Third-party images and material retain their separately credited rights and licence terms.</p>
           <a class="text-link" href="#before">Explore the lecture <span aria-hidden="true">↓</span>
           </a>
         </div>
@@ -700,6 +714,11 @@ dialog>img {
             <span class="source">Wikimedia Commons. Select the image to enlarge.</span>
           </figcaption>
         </figure>
+        <!-- Teaching and reuse information spans both columns below the introduction. -->
+        <aside class="hero-teaching-note" aria-label="About these teaching materials">
+          <p class="lecture-introduction">An introduction to the lecture, with slides and teaching materials below. Designed for teaching economic history, the material also relates to development economics, demographic economics, political economy and the economics of migration. You are welcome to reuse and adapt my teaching material to design your own lectures under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 (CC BY 4.0)</a>, crediting Chris Colvin.</p>
+          <p class="lecture-rights">Third-party images and material retain their separately credited rights and licence terms.</p>
+        </aside>
       </section>
       <!-- CHAPTER NAVIGATION: each link matches a section id below. -->
       <nav class="chapter-nav" aria-label="Lecture chapters">
