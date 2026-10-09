@@ -678,7 +678,19 @@ dialog>img {
   .hero-teaching-note { grid-template-columns:1fr; gap:12px; }
 }
 </style>
-  </head>
+  <style id="shared-page-layout"> h1,.hero-heading h1{font-family:Georgia,serif;font-size:clamp(38px,5.4vw,64px);font-weight:400;line-height:1.12;letter-spacing:-1.5px;max-width:none}
+/* Shared width, alignment and navigation across the standalone pages. */ header.wrap,.hero.wrap,body>.wrap>header{padding-top:52px;padding-bottom:32px}
+.wrap{width:100%;max-width:1160px;margin-left:auto;margin-right:auto;padding-left:30px;padding-right:30px;box-sizing:border-box}
+.masthead{width:100%;max-width:1160px;margin-left:auto;margin-right:auto;padding-left:30px;padding-right:30px;box-sizing:border-box}
+nav .wrap,nav.chapter-nav .wrap{display:flex;flex-wrap:nowrap;justify-content:flex-start;gap:24px;overflow-x:auto;padding-top:0;padding-bottom:0;scrollbar-width:thin}
+nav a,nav.chapter-nav a{display:block;flex-shrink:0;padding:14px 0;font:600 13px/1.5 Arial,sans-serif;white-space:nowrap;text-decoration:none}
+.site-return{display:block;flex-basis:100%;margin:22px 0 0;font:600 14px/1.6 Arial,sans-serif}
+.shared-section-label{margin:0 0 12px;font:700 11px/1.5 Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;color:inherit}
+html{scroll-padding-top:80px}
+@media(max-width:800px){header.wrap,.hero.wrap,body>.wrap>header{padding-top:32px;padding-bottom:26px}.wrap,.masthead{padding-left:20px;padding-right:20px}nav .wrap,nav.chapter-nav .wrap{gap:20px}}
+@media print{.site-return{display:none}}
+</style>
+</head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <!-- SITE HEADER: your name and the link to teaching materials. -->
@@ -721,21 +733,12 @@ dialog>img {
         </aside>
       </section>
       <!-- CHAPTER NAVIGATION: each link matches a section id below. -->
-      <nav class="chapter-nav" aria-label="Lecture chapters">
-        <div class="wrap">
-          <a href="#before">1 Before</a>
-          <a href="#shock">2 Shock</a>
-          <a href="#relief">3 Relief</a>
-          <a href="#migration">4 Migration</a>
-          <a href="#legacy">5 Legacy</a>
-          <a href="#teaching">6 Teach</a>
-        </div>
-      </nav>
+      <nav class="chapter-nav" aria-label="Page sections"><div class="wrap"><a href="#before">01 · Before</a><a href="#shock">02 · Shock</a><a href="#relief">03 · Relief</a><a href="#migration">04 · Migration</a><a href="#legacy">05 · Legacy</a><a href="#teaching">06 · Teaching materials</a><a href="#reading">07 · Further reading</a></div></nav>
       <div class="wrap">
         <!-- 1 — BEFORE THE FAMINE: introduction and population chart. -->
         <section class="chapter" id="before" aria-labelledby="before-title">
           <div class="chapter-heading">
-            <span class="chapter-number">1</span>
+            <span class="chapter-number">01</span>
             <h2 id="before-title">Before the Famine</h2>
             <p>An economy already changing</p>
           </div>
@@ -755,7 +758,7 @@ dialog>img {
         <!-- 2 — THE SHOCK: harvest failures and mortality. -->
         <section class="chapter" id="shock" aria-labelledby="shock-title">
           <div class="chapter-heading">
-            <span class="chapter-number">2</span>
+            <span class="chapter-number">02</span>
             <h2 id="shock-title">The shock</h2>
             <p>A crop failure that kept returning</p>
           </div>
@@ -790,7 +793,7 @@ dialog>img {
         <!-- 3 — FOOD AND RELIEF: institutions and policy. -->
         <section class="chapter" id="relief" aria-labelledby="relief-title">
           <div class="chapter-heading">
-            <span class="chapter-number">3</span>
+            <span class="chapter-number">03</span>
             <h2 id="relief-title">Food and relief</h2>
             <p>Availability, purchasing power and policy</p>
           </div>
@@ -807,7 +810,7 @@ dialog>img {
         <!-- 4 — MIGRATION: leaving Ireland and selection. -->
         <section class="chapter" id="migration" aria-labelledby="migration-title">
           <div class="chapter-heading">
-            <span class="chapter-number">4</span>
+            <span class="chapter-number">04</span>
             <h2 id="migration-title">Leaving Ireland</h2>
             <p>Escape had a price</p>
           </div>
@@ -834,7 +837,7 @@ dialog>img {
         <!-- 5 — LEGACY: railway maps and the health of survivors. -->
         <section class="chapter" id="legacy" aria-labelledby="legacy-title">
           <div class="chapter-heading">
-            <span class="chapter-number">5</span>
+            <span class="chapter-number">05</span>
             <h2 id="legacy-title">Lives after the Famine</h2>
             <p>Connections and human capital</p>
           </div>
@@ -874,9 +877,9 @@ dialog>img {
       <section class="teaching" id="teaching" aria-labelledby="teaching-title">
         <div class="wrap teaching-grid">
           <div>
-            <p class="eyebrow">6 / TEACHING MATERIALS</p>
+            <p class="eyebrow">06 / TEACHING MATERIALS</p>
             <h2 id="teaching-title">Take it into<br>the classroom.</h2>
-            <p>The complete 80-slide lecture, including the figures, methodological discussion and research references behind this introduction.</p>
+            <p>The complete 81-slide lecture, including the figures, methodological discussion and research references behind this introduction.</p>
             <a class="download" href="Great-Irish-Famine-lecture-November-2025.pptx" download>Download the lecture <span>PPTX · 19.1 MB ↓</span>
             </a>
             <p class="small">ECO3020 · Economic History<br>Dr Chris Colvin · Queen’s University Belfast</p>
@@ -905,7 +908,7 @@ dialog>img {
       </section>
       <!-- FURTHER READING: add or edit article links here. -->
       <section class="reading-list wrap" id="reading">
-        <h2>Follow the research</h2>
+        <div class="shared-section-label">07 / Further reading</div><h2>Follow the research</h2>
         <p>A selection of the research and accessible summaries discussed in the lecture.</p>
         <div class="reading-rows">
           <a href="https://www.economicsobservatory.com/the-great-irish-famine-what-are-the-lessons-for-policy-makers-today">
@@ -943,8 +946,8 @@ dialog>img {
       <p>Figures from the lecture and Economics Observatory; sources credited beside each image.<br>Third-party material retains its original rights.</p>
       <a href="#top">Back to top ↑</a>
       <!-- Page revision date; the lecture date remains November 2025. -->
-      <p>Last updated: <time datetime="2026-09-29">29 September 2026</time></p>
-    </footer>
+      <p>Last updated: <time datetime="2026-10-01">1 October 2026</time></p>
+    <p class="site-return"><a href="irish-history.html">← Irish economic history</a></p></footer>
     <!-- IMAGE VIEWER: opens when a reader selects a figure. -->
     <dialog id="figure-dialog" aria-labelledby="figure-caption">
       <div class="dialog-top">
