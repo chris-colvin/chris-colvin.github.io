@@ -176,3 +176,17 @@ footer { color: #ddd; background: #292929; }
   .profile-logo img { max-width: 130px; max-height: 68px; }
   .footer-inner { flex-direction: column; gap: .35rem; padding: 1.5rem 1.25rem; }
 }
+
+/* Book and teaching resources */
+.resource-card { display:flex; flex-direction:column; }
+.resource-card .resource-link { margin-top:auto; padding-top:.6rem; }
+.teaching-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.book-authors { margin-bottom:2rem; }
+a:focus-visible { outline:3px solid var(--brick); outline-offset:4px; }
+@media(max-width:1000px) { .teaching-grid { grid-template-columns:1fr; } }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .card { transition:none; } .card:hover { transform:none; } }
+
+/* Keep the book title and authors together, with the rule below both. */
+.book-title { margin-bottom:.45rem; }
+.book-title::after { display:none; }
+.book-authors::after { content:""; display:block; width:48px; height:3px; margin-top:.7rem; background:var(--brick); }
