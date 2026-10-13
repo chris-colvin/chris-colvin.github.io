@@ -73,19 +73,21 @@ a:hover { color: #301a15; text-decoration-color: currentColor; }
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  min-height: 650px;
+  min-height: 350px;
   display: block;
   overflow: hidden;
   background-image: url("chris-colvin.jpg");
-  background-size: cover;
-  background-position: center 38%;
+  background-color: #261d19;
+  background-size: auto 145%;
+  background-repeat: no-repeat;
+  background-position: right 35%;
   color: #fff;
 }
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(20,15,13,.82) 0%, rgba(20,15,13,.62) 33%, rgba(20,15,13,.12) 67%, rgba(20,15,13,.2) 100%);
+  background: linear-gradient(90deg, #261d19 0%, #261d19 calc(100% - 762px), rgba(38,29,25,.97) calc(100% - 680px), rgba(38,29,25,.78) calc(100% - 590px), rgba(38,29,25,.43) calc(100% - 480px), rgba(38,29,25,.12) calc(100% - 350px), rgba(38,29,25,.2) 100%);
 }
 .hero::after {
   content: "";
@@ -161,7 +163,7 @@ footer { color: #ddd; background: #292929; }
   .brand { font-size: 1.25rem; }
   .nav { justify-content: flex-start; gap: 1rem; padding: 0 1.25rem; }
   .nav a { padding: .9rem 0 .8rem; font-size: .76rem; }
-  .hero, .home-hero { min-height: 520px; background-position: 58% center; }
+  .hero, .home-hero { min-height: 300px; background-size: cover; background-position: 58% center; }
   .hero::before { background: linear-gradient(90deg,rgba(20,15,13,.78),rgba(20,15,13,.18)); }
   .hero-inner, .home-hero .hero-inner, .hero:not(.home-hero) .hero-inner { padding: 5.5rem 1.25rem 0; }
   h1 { max-width: 85%; }
