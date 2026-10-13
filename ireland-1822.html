@@ -153,4 +153,6 @@ function revealSectionHash(){
 }
 document.addEventListener('click',e=>{const link=e.target.closest('a[href^="#"]');if(!link)return;const target=document.getElementById(link.getAttribute('href').slice(1));if(!target)return;let node=target;while(node){if(node.tagName==='DETAILS')node.open=true;node=node.parentElement;}});
 window.addEventListener('hashchange',revealSectionHash);if(location.hash)revealSectionHash();
-</script></body></html>
+</script><script data-goatcounter="https://chris-colvin.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+</body></html>
