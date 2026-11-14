@@ -53,5 +53,16 @@
     "receipts_excluding_grants_and_loans": 4237884
   },
   "central_revenue_plus_local_rates": 12678621,
-  "central_taxes_plus_local_rates": 11626621
+  "central_taxes_plus_local_rates": 11626621,
+  "spending_comparison": {
+    "receipts": 12678621,
+    "civil_spending_min": 11257638,
+    "civil_spending_max": 11417599,
+    "military_spending": 2335850,
+    "total_spending_min": 13593488,
+    "total_spending_max": 13753449,
+    "spending_minus_receipts_min": 914867,
+    "spending_minus_receipts_max": 1074828,
+    "note": "Army: 21,235 troops at 110 pounds each, assumed entirely spent in Ireland. Civil range reflects unresolved central/local grant difference."
+  }
 }

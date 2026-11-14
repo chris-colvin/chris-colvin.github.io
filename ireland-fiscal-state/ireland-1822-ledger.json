@@ -46,6 +46,13 @@
   },
   "total": 5917933,
   "percent": 8.72469064414257,
+  "spending_comparison": {
+    "receipts": 5417933,
+    "civil": 2938130,
+    "military": 1482385,
+    "total": 4420515,
+    "difference": -997418
+  },
   "expenditure_separate": {
     "non_loan_non_debt": 3665515,
     "recorded_debt_service": 1115908,
