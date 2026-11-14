@@ -1,0 +1,64 @@
+{
+  "draft": "2026-11-14 offline v1",
+  "year": 1822,
+  "unit": "GBP sterling (central interpretation and local conversion qualifications apply)",
+  "denominator": 67829717.30892348,
+  "central": {
+    "value": 4662933,
+    "source": "HC 1823 (301), pp. 2–3; year ending 5 January 1823; existing model reconciliation"
+  },
+  "local": {
+    "selected": 675000,
+    "rounded_scenarios": [
+      650000,
+      675000,
+      700000
+    ],
+    "raw_mixed_currency_sum": 706344,
+    "confirmed_irish_sum": 72467,
+    "sligo_sterling": 15713,
+    "exact_lower": 653218.5384615385,
+    "exact_upper": 700769.6153846154,
+    "source": "HC 1830 (265), 1822 entries; currency_audit.md",
+    "status": "currency sensitivity only; 39 jurisdictions; Tyrone excluded; mixed assessments/receipts"
+  },
+  "church": {
+    "selected": 500000,
+    "assumptions": [
+      400000,
+      500000,
+      650000
+    ],
+    "later_tithe_benchmark": 534433,
+    "source": "Hansard 30 March 1835 vol 27 cc368–369",
+    "url": "https://api.parliament.uk/historic-hansard/commons/1835/mar/30/church-of-ireland",
+    "status": "Rounded £500,000 assumption for 1822; 1835 tithe composition retained for comparison; rents excluded; alternative assumptions are illustrative"
+  },
+  "formula": "central + local + dublin + church; share = total / denominator * 100",
+  "dublin": {
+    "value": 80000,
+    "source_year": 1820,
+    "source": "HC 1822 (394), pp. 13–14; HC 1821 (420), pp. 7 and 10",
+    "basis": "Collected fixed taxes less wide-street receipts and precautionary quay deduction; assumed Irish pounds converted at 12/13, rounded down",
+    "reported_receipts": 94837.08750000001,
+    "wide_street_deduction": 5800.5,
+    "quay_deduction": 1812.9458333333334
+  },
+  "total": 5917933,
+  "percent": 8.72469064414257,
+  "expenditure_separate": {
+    "non_loan_non_debt": 3665515,
+    "recorded_debt_service": 1115908,
+    "total": 4781423
+  },
+  "exclusions": [
+    "Church rents and other non-tithe Church income",
+    "Tyrone, no imputation",
+    "Additional municipal levies outside Dublin",
+    "Separate church cess and ministers money",
+    "Duplicate Dublin grand jury",
+    "Duplicate central grants and curate salaries",
+    "Collection costs and debt service as additional revenue"
+  ],
+  "verification": "Checked against local model and audits; 1835 Hansard inspected; primary scans not retranscribed in this draft"
+}

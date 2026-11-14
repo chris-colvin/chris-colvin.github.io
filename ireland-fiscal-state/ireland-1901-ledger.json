@@ -1,0 +1,57 @@
+{
+  "year": "1900–01",
+  "output_year": 1901,
+  "denominator": 124101381.41626643,
+  "source": "https://en.wikisource.org/wiki/Problems_of_Empire/The_Finance_of_Federal_Government_for_the_United_Kingdom#APPENDIX",
+  "source_description": "Existing 1901 model; checked against Brassey appendix, extracts from Parliamentary Return 90, 8 July 1901",
+  "revenue": {
+    "customs": 2814000,
+    "excise": 3501000,
+    "estate_duties": 873000,
+    "stamps": 290000,
+    "income_tax": 975000,
+    "tax_total": 8453000,
+    "post_office": 729000,
+    "telegraphs": 174000,
+    "crown_lands": 33000,
+    "miscellaneous": 116000,
+    "non_tax_total": 1052000,
+    "total": 9505000
+  },
+  "irish_services": {
+    "civil_government": 4545000,
+    "collection": 244000,
+    "postal_services": 1061000,
+    "exchequer_payments_to_local_taxation_account": 1054000,
+    "local_taxation_revenue_expenditure": 402000,
+    "total": 7306000
+  },
+  "imperial_contribution": 2199000,
+  "notes": [
+    "Revenue attributed to Ireland, not simply collected there.",
+    "Local taxation account receipts are assigned national revenues, not a total of locally raised rates.",
+    "Irish services is an accounting allocation, not all government payments received in Ireland.",
+    "Existing balance-of-payments model partial receipt proxies of 176000 are not additional revenue here.",
+    "Other local receipts of 1064263 are not yet added to the working subtotal.",
+    "Church income is outside the 1901 fiscal-state comparison."
+  ],
+  "local": {
+    "year": "1900–01",
+    "rates_including_water_rates": 3173621,
+    "government_contributions": 1296039,
+    "tolls_dues_duties": 345091,
+    "rents_interest_etc": 251363,
+    "fees_fines_penalties_licences": 124080,
+    "miscellaneous": 343729,
+    "loans": 943875,
+    "total_receipts": 6477798,
+    "source": "https://escoe-website.s3.amazonaws.com/wp-content/uploads/2019/06/06171537/Statistical-Abstract-for-the-UK-1898-1912.pdf",
+    "reference": "Statistical Abstract for the United Kingdom 1898–1912 (1913), Cd. 7022, table 21, printed pp. 50–51 (PDF pp. 59–60)",
+    "verification": "1900–01 figures checked visually against scan; sum reconciles",
+    "treatment": "Add rates to the working subtotal. Keep government contributions and loans out. Other own receipts shown separately pending classification as current resources and checks for transfers.",
+    "other_own_receipts": 1064263,
+    "receipts_excluding_grants_and_loans": 4237884
+  },
+  "central_revenue_plus_local_rates": 12678621,
+  "central_taxes_plus_local_rates": 11626621
+}

@@ -1,0 +1,27 @@
+1901 local receipts — 14 November 2026
+
+Source: Statistical Abstract for the United Kingdom 1898–1912 (1913), Cd. 7022, table 21, printed pp. 50–51 (PDF pp. 59–60)
+https://escoe-website.s3.amazonaws.com/wp-content/uploads/2019/06/06171537/Statistical-Abstract-for-the-UK-1898-1912.pdf
+
+1900–01 column, visually checked.
+Rates (including water rates): 3,173,621
+Government contributions: 1,296,039
+Tolls, dues and duties: 345,091
+Rents, interest, etc.: 251,363
+Fees, fines, penalties and licences: 124,080
+Miscellaneous: 343,729
+Loans: 943,875
+Total: 6,477,798. Components reconcile exactly.
+
+Source notes: government contributions include grants-in-aid and receipts from the Local Taxation Account. Rates include water rates through 1906–07. The continuation page explains that earlier water receipts other than rates, and gas/electricity receipts, are partly included in other headings rather than separately reported. Do not read dashes as zero activity.
+
+Working addition: rates only, 3,173,621.
+Other own receipts: 1,064,263, separately identified pending classification and transfer checks.
+Total excluding grants and loans: 4,237,884; this is a receipt subtotal, not yet adopted as consolidated current local revenue.
+
+Central revenue + local rates: 12678621 (10.22%).
+Central taxes + local rates: 11626621 (9.37%).
+Denominator retained: 124101381.41626643.
+Church income not included.
+
+The supplied LocalTax-1900-078245_complete.pdf is Royal Commission on Local Taxation, minutes of evidence, vol. V Ireland (1900), Cd. 383. It predates the target accounts and was not used for these totals.
