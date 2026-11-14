@@ -1,0 +1,33 @@
+Calculation details — Ireland’s fiscal state
+
+Bank of England, A millennium of macroeconomic data, v3.1: Ireland 1822 output, A9 T140; Ireland 1901, A9 column AT (drawing on Andersson and Lennard); UK 1822 revenue, A27, and output, A9 P140; GB 1822 output, A9 H140.
+
+France 1900: André and Delorme table II-1 reports 7.21m new-franc equivalents; multiplied by 100 = 721m contemporary francs.
+
+
+Grand-jury currency conversion
+
+The abstract’s whole-pound entries sum to £706,344 in mixed currencies. Confirmed Irish entries total £72,467; Sligo’s £15,713 is retained as sterling.
+
+Upper: 706,344 − 72,467 ÷ 13 = £700,769.62. Lower: (706,344 − 15,713) × 12 ÷ 13 + 15,713 = £653,218.54. Converting probable-Irish Cork city as well gives an upper scenario of £699,313.85.
+
+Irish pounds convert at 12/13. Antrim, Drogheda, Limerick county and city are confirmed Irish; Cork city and Louth are probably Irish. Remaining denominations are unresolved. The selector uses rounded amounts of £650,000–700,000.
+
+
+Church spending: detailed assumptions
+
+Tithe-funded Church expenditure
+
+The established Church is included as an arm of the state. Tithe-funded Church expenditure is assumed equal to tithe receipts: £500,000, with £400,000 and £650,000 alternatives. This is an income-based estimate, not observed expenditure or total Church spending.
+
+The adopted income is assumed realised and allocated to clergy remuneration and current operating costs, without institutional retention, principal repayments or capital allocations. Curate salaries paid from incumbents’ income and central grants are not added again; clergy household saving does not reduce remuneration.
+
+The benchmark is £534,433 in tithe composition reported by
+Lord John Russell, 30 March 1835, cols. 368–369
+. Its application to 1822 is an assumption. The underlying return and gross/net collection basis are unverified: if net, collection expenses are omitted. Property-funded spending, church cess, ministers’ money and separately financed buildings are not quantified.
+
+
+Additional spending and Dublin calculation details
+ Recorded central payments excluding debt charges and public-works advances were £3,665,515, including £1,482,385 for the Army and Ordnance. Adding £755,000 for grand-jury and additional Dublin levies gives £4,420,515. Removing the Army and Ordnance gives £2,938,130 for civil services. Local levies are a proxy, not an expenditure return; they may themselves include debt charges. Adding £500,000 in assumed tithe-funded Church spending gives £4,920,515 overall; see the  1822 accounting notes .
+
+ Dublin grand-jury cess is already included. An additional £80,000 estimates Dublin’s other taxes from 1820 collections of £94,837, less wide-street receipts (£5,800) and a precautionary quay-charge deduction (£1,813). Treating the reported pounds as Irish gives about £80,500 sterling, rounded down to £80,000. Other towns’ additional levies are excluded.

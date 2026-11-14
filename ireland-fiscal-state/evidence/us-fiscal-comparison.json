@@ -1,0 +1,43 @@
+{
+  "source": "Andersson and Brambor, Financing the State v3.0, work/govrev_v3.csv",
+  "rows": [
+    {
+      "cname": "United States",
+      "year": "1822",
+      "ccode": "840",
+      "ccodecow": "2",
+      "ccodewb": "USA",
+      "gdpnom": "798",
+      "gdp": "15757",
+      "centaxgdp": "2.535338345864662",
+      "centaxtot": "20.232",
+      "centaxdirectsh": "",
+      "centaxincomesh": "",
+      "centaxpropertysh": "",
+      "centaxindirectsh": "86.94147884539343",
+      "centaxcustomssh": "86.94147884539343",
+      "centaxexcisesh": "",
+      "centaxconssh": "0"
+    },
+    {
+      "cname": "United States",
+      "year": "1901",
+      "ccode": "840",
+      "ccodecow": "2",
+      "ccodewb": "USA",
+      "gdpnom": "22269",
+      "gdp": "445287",
+      "centaxgdp": "2.639027347433652",
+      "centaxtot": "587.6849999999999",
+      "centaxdirectsh": "",
+      "centaxincomesh": "",
+      "centaxpropertysh": "",
+      "centaxindirectsh": "83.8486604218246",
+      "centaxcustomssh": "40.59742889473102",
+      "centaxexcisesh": "43.25123152709359",
+      "centaxconssh": "0"
+    }
+  ],
+  "classification": "Federal revenue, including non-tax receipts; numerators match US Historical Statistics P89 total Treasury receipts (1822 $20,232,428; 1901 $587,685,338), rounded to thousands in dataset. State and local revenue excluded.",
+  "verification_url": "https://www2.census.gov/library/publications/1949/compendia/hist_stats_1789-1945/hist_stats_1789-1945-chP.pdf"
+}

@@ -1,0 +1,67 @@
+{
+  "ireland_1822": {
+    "revenue": 1255000,
+    "output": 67829717.30892348,
+    "percent": 1.8502214807769746,
+    "local_levies": 755000,
+    "tithes": 500000
+  },
+  "ireland_1901": {
+    "revenue": 3642792,
+    "output": 124101381.41626643,
+    "percent": 2.9353355767903855,
+    "rates": 3173621,
+    "tolls_fees_and_related_receipts": 469171
+  },
+  "gb_1901": {
+    "uk_rates": 50648788,
+    "irish_rates": 3173621,
+    "gb_rates": 47475167,
+    "output": 1723800000,
+    "percent": 2.754099489499942,
+    "source": "Statistical Abstract table21 p52, PDF61; image work/uk-rates-1901.png"
+  },
+  "france_1900": {
+    "department_taxes_francs": 189000000,
+    "commune_taxes_francs": 532000000,
+    "total_taxes_francs": 721000000,
+    "output_francs": 32806000000,
+    "percent": 2.1977687008474063,
+    "source": "Andre and Delorme1973 tableII-1 PDF79, amounts in millions of new-franc equivalents converted at100; output Andersson Brambor v3.0 year1900"
+  },
+  "gaps": "GB 1822 covers poor rates only; France uses a partial nearby-year estimate; US states use an 1820 benchmark. No separate New York 1822 income estimate established.",
+  "france_1822": {
+    "selected_local_taxes_francs": 76363000,
+    "output_francs": 9045000000,
+    "percent": 0.8442564953012713,
+    "coverage": "Partial nearby-year comparison: net 1823 octrois plus selected 1826 local surtaxes. Not a complete 1822 local-tax total. Fixed departmental centimes are not separately added. Some departmental taxes appear in central accounts; do not assume central and local rows are additive.",
+    "evidence": "local-1822-research.json"
+  },
+  "us_states_1820": {
+    "year": 1820,
+    "comparison_year": 1822,
+    "coverage": "US state governments collectively; includes non-tax receipts; excludes federal and municipal revenue. Nearby-year benchmark, not a reconstructed 1822 observation.",
+    "revenue_per_capita_usd": 0.56,
+    "population": 9638453,
+    "implied_revenue_usd": 5397533.680000001,
+    "output_usd": 703000000,
+    "percent": 0.7677857297297298,
+    "display": "0.8%",
+    "revenue_source": "John Joseph Wallis (2000), American Government Finance in the Long Run: 1790 to 1990, Journal of Economic Perspectives 14(1), table 1 p65.",
+    "revenue_url": "https://econweb.umd.edu/~wallis/MyPapers/Wallis_GovtFinance_JEP_2000.pdf#page=6",
+    "population_url": "https://www2.census.gov/library/publications/2011/compendia/statab/131ed/tables/12s0002.pdf",
+    "gdp_source": "Andersson and Brambor, Financing the State v3.0; United States 1820 gdpnom=703 million USD. Numerator and denominator both 1820.",
+    "precision": "Revenue total is calculated from rounded per-capita estimate; not an exact account total."
+  },
+  "us_state_local_1902": {
+    "comparison_year": 1901,
+    "source_year": 1902,
+    "state_percent_gnp": 0.8,
+    "local_percent_gnp": 4,
+    "total_percent_gnp": 4.8,
+    "denominator": "GNP; percentages reported directly by source",
+    "coverage": "US state and local government revenue, including non-tax receipts; federal revenue excluded.",
+    "source": "John Joseph Wallis (2000), American Government Finance in the Long Run: 1790 to 1990, table 1 p65",
+    "url": "https://econweb.umd.edu/~wallis/MyPapers/Wallis_GovtFinance_JEP_2000.pdf#page=6"
+  }
+}

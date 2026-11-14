@@ -1,0 +1,77 @@
+{
+  "status": "GB poor rates, partial French local taxes and US state-government benchmark added to local draft.",
+  "england_wales": {
+    "period": "1821-22",
+    "poor_rates_levied_gbp": 7761441,
+    "poor_relief_expenditure_gbp": 6358704,
+    "coverage": "England and Wales poor rates only. Combined with Scottish assessments for the GB comparison. County payments financed from poor rates must not be added twice.",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/97/Annual_report_of_The_Poor_Law_Board._Reports_6-8%2C_1853-1855._%28IA_s4690id1397471%29.pdf",
+    "cross_check": "https://jimclifford.ca/britannica-articles-4/a/EB.16/193108326/154.html"
+  },
+  "france": {
+    "period": 1823,
+    "octroi_gross_francs": 61871658,
+    "octroi_net_francs": 44674311,
+    "contribution_mobiliere_charged_against_octroi_francs": 12955800,
+    "coverage": "Partial nearby-year comparison: net 1823 octrois plus selected 1826 local surtaxes. Not a complete 1822 local-tax total. Fixed departmental centimes are not separately added. Some departmental taxes appear in central accounts; do not assume central and local rows are additive.",
+    "source": "https://www.numdam.org/item/JSFS_1869__10__173_0.pdf",
+    "reference": "A. Legoyt, Les octrois en France, Journal de la Societe statistique de Paris 10 (1869), pp. 175-176.",
+    "surtax_period": 1826,
+    "departmental_facultative_surtaxes_francs": 9656089,
+    "communal_ordinary_extraordinary_surtaxes_francs": 18419650,
+    "cadastral_surtaxes_francs": 3612950,
+    "selected_local_total_francs": 76363000,
+    "gdp_1822_francs": 9045000000,
+    "percent": 0.8442564953012713,
+    "display": "0.8%",
+    "surtax_source": "https://data.decalog.net/enap1/Liens/Gazette/ENAP_GAZETTE_TRIBUNAUX_18290422.pdf#page=3",
+    "surtax_reference": "Moureau, Des centimes additionnels, Gazette des tribunaux, 22 April 1829, PDF p.3, reproducing final 1826 direct-tax accounts.",
+    "verification": "Table checked against page image. Cadastral figure is 3,612,950, not OCR 3,612,250; all eight account lines sum to printed total 341,860,014.",
+    "gdp_source": "Andersson and Brambor, Financing the State v3.0, France 1822 gdpnom=9045 million francs."
+  },
+  "new_york": {
+    "period": "Year ending 30 November 1822",
+    "treasury_receipts_usd": 915705.39,
+    "payments_usd": 924094.89,
+    "closing_balance_usd": 108824.53,
+    "coverage": "Reported Treasury receipts. Not yet reconciled to ordinary revenue excluding loans, fund transfers and capital transactions, or to separate canal accounts. No verified 1822 state income/GDP denominator found.",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/6/6e/California_Digital_Library_%28IA_messagesfromgove03newyiala%29.pdf",
+    "reference": "Governor Joseph C. Yates, annual message, 7 January 1823, printed p. 10.",
+    "further_source": "https://upload.wikimedia.org/wikipedia/commons/f/f3/The_financial_history_of_New_York_State_from_1789_to_1912_%28IA_cu31924030225175%29.pdf",
+    "research_lead": "Sowers, Financial History of New York State (1914); also Sylla, Legler and Wallis (1987), Banks and State Public Finance in the New Republic, which uses ordinary revenues net of borrowing but notes uneven special-fund coverage."
+  },
+  "scotland": {
+    "assessment_original": "£49,718 10s 5¼d",
+    "assessment_gbp": 49718.521875,
+    "period": "1807–16 annual average, reported in 1820",
+    "treatment": "Unscaled proxy for 1822; excludes voluntary contributions and other local taxes",
+    "source": "https://www.electricscotland.com/history/law/chapter2.htm",
+    "table_image": "https://www.electricscotland.com/history/law/images/chapte97.jpg",
+    "period_source": "https://electricscotland.com/bible/oldchurchlifeins1886edga.pdf"
+  },
+  "great_britain": {
+    "poor_rates_gbp": 7811159.521875,
+    "gdp_market_prices_gbp": 385165962.562539,
+    "gdp_source": "Bank of England A millennium of macroeconomic data v3.1, A9. Nominal GDP (A), H140",
+    "gdp_source_url": "https://www.bankofengland.co.uk/-/media/boe/files/statistics/research-datasets/a-millennium-of-macroeconomic-data-for-the-uk.xlsx",
+    "year": 1822,
+    "percent": 2.0279983905916166,
+    "display": "2.0%"
+  },
+  "us_states_1820": {
+    "year": 1820,
+    "comparison_year": 1822,
+    "coverage": "US state governments collectively; includes non-tax receipts; excludes federal and municipal revenue. Nearby-year benchmark, not a reconstructed 1822 observation.",
+    "revenue_per_capita_usd": 0.56,
+    "population": 9638453,
+    "implied_revenue_usd": 5397533.680000001,
+    "output_usd": 703000000,
+    "percent": 0.7677857297297298,
+    "display": "0.8%",
+    "revenue_source": "John Joseph Wallis (2000), American Government Finance in the Long Run: 1790 to 1990, Journal of Economic Perspectives 14(1), table 1 p65.",
+    "revenue_url": "https://econweb.umd.edu/~wallis/MyPapers/Wallis_GovtFinance_JEP_2000.pdf#page=6",
+    "population_url": "https://www2.census.gov/library/publications/2011/compendia/statab/131ed/tables/12s0002.pdf",
+    "gdp_source": "Andersson and Brambor, Financing the State v3.0; United States 1820 gdpnom=703 million USD. Numerator and denominator both 1820.",
+    "precision": "Revenue total is calculated from rounded per-capita estimate; not an exact account total."
+  }
+}
